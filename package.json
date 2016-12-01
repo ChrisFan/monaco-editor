@@ -1,6 +1,6 @@
 {
   "name": "cf-monaco-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A browser based code editor",
   "author": "Microsoft Corporation",
   "license": "MIT",
