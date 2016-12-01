@@ -1,5 +1,7 @@
 > This is a fork of [`monaco-editor`](https://github.com/Microsoft/monaco-editor)
 
+> This repo use cf-monaco-editor-core instead of monaco-editor-core
+
 # Monaco Editor
 
 [Demo page](https://microsoft.github.io/monaco-editor/)
