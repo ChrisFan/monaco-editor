@@ -47,13 +47,13 @@ gulp.task('release', ['clean-release'], function() {
 			.pipe(gulp.dest('release')),
 
 		// min-maps folder
-		gulp.src('node_modules/monaco-editor-core/min-maps/**/*').pipe(gulp.dest('release/min-maps')),
+		gulp.src('node_modules/cf-monaco-editor-core/min-maps/**/*').pipe(gulp.dest('release/min-maps')),
 
 		// other files
 		gulp.src([
-			'node_modules/monaco-editor-core/LICENSE',
-			'node_modules/monaco-editor-core/monaco.d.ts',
-			'node_modules/monaco-editor-core/ThirdPartyNotices.txt',
+			'node_modules/cf-monaco-editor-core/LICENSE',
+			'node_modules/cf-monaco-editor-core/monaco.d.ts',
+			'node_modules/cf-monaco-editor-core/ThirdPartyNotices.txt',
 			'README.md'
 		])
 		.pipe(addPluginDTS())
@@ -64,7 +64,7 @@ gulp.task('release', ['clean-release'], function() {
 
 function releaseOne(type) {
 	return es.merge(
-		gulp.src('node_modules/monaco-editor-core/' + type + '/**/*')
+		gulp.src('node_modules/cf-monaco-editor-core/' + type + '/**/*')
 			.pipe(addPluginContribs())
 			.pipe(gulp.dest('release/' + type)),
 		pluginStreams('release/' + type + '/')

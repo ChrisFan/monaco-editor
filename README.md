@@ -1,3 +1,5 @@
+> This is a fork of [`monaco-editor`](https://github.com/Microsoft/monaco-editor)
+
 # Monaco Editor
 
 [Demo page](https://microsoft.github.io/monaco-editor/)
