@@ -39,7 +39,7 @@
 			contrib: 'vs/language/html/monaco.contribution',
 			modulePrefix: 'vs/language/html',
 			paths: {
-				npm: 'node_modules/monaco-html/release/min',
+				npm: 'node_modules/cf-monaco-html/release/min',
 				dev: '/monaco-html/release/dev'
 			}
 		},{
