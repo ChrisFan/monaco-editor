@@ -15,7 +15,7 @@
 			contrib: 'vs/language/typescript/src/monaco.contribution',
 			modulePrefix: 'vs/language/typescript',
 			paths: {
-				npm: 'node_modules/monaco-typescript/release',
+				npm: 'node_modules/cf-monaco-typescript/release',
 				dev: '/monaco-typescript/out'
 			}
 		},{

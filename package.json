@@ -1,6 +1,6 @@
 {
   "name": "cf-monaco-editor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A browser based code editor",
   "author": "Microsoft Corporation",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "monaco-html": "1.1.0",
     "monaco-json": "1.1.1",
     "monaco-languages": "0.6.0",
-    "monaco-typescript": "2.0.1",
+    "cf-monaco-typescript": "^0.1.0",
     "rimraf": "^2.5.2",
     "typedoc": "^0.5.0",
     "uncss": "^0.14.1"
